@@ -1,0 +1,43 @@
+{
+  "name": "jenkins-minamike",
+  "version": "0.1.0",
+  "description": "Minamike like Jenkins theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "xo * src/**",
+    "build": "node setup && webpack",
+    "watch": "node setup && webpack --progress --watch"
+  },
+  "author": "Pine Mizune <pinemz@gmail.com> (https://github.com/pine613)",
+  "license": "MIT",
+  "devDependencies": {
+    "async": "^2.0.0-rc.3",
+    "autoprefixer": "^6.3.6",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-3": "^6.5.0",
+    "co": "^4.6.0",
+    "css-loader": "^0.23.1",
+    "download-file": "^0.1.5",
+    "jade": "^1.11.0",
+    "jade-loader": "^0.8.0",
+    "jquery-ui": "^1.10.5",
+    "postcss-calc": "^5.2.0",
+    "postcss-clearfix": "^1.0.0",
+    "postcss-loader": "^0.8.2",
+    "precss": "^1.4.0",
+    "style-loader": "^0.13.1",
+    "thunkify": "^2.1.2",
+    "webpack": "^1.12.14",
+    "xo": "^0.13.0"
+  },
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "page": "^1.7.1"
+  },
+  "xo": {
+    "esnext": true,
+    "space": 2,
+    "semicolon": false
+  }
+}

@@ -1,0 +1,86 @@
+#page-head {
+  background: #37372d;
+}
+
+#header {
+  margin: 0 auto;
+  width: 1200px;
+  height: 70px;
+  background-color: transparent;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    float: left;
+    margin: 0;
+    height: 100%;
+
+    #jenkins-home-link {
+      display: flex;
+      align-items: center;
+      position: static;
+      height: auto;
+
+      #jenkins-head-icon {
+        position: static;
+        bottom: auto;
+      }
+
+      #jenkins-name-icon {
+        position: static;
+        bottom: auto;
+        left: auto;
+      }
+    }
+  }
+
+  .login {
+    display: none;
+  }
+
+  .searchbox {
+    display: flex;
+      align-items: center;
+
+    form {
+      #searchform {
+        #search-box {
+          padding: 0;
+          background-image: none;
+        }
+
+        & > a {
+          background: url('/userContent/minamike/header/btn_search.png') center center no-repeat;
+          width: 16px;
+          height: 16px;
+
+          .icon-help {
+            visibility: hidden;
+          }
+        }
+      }
+    }
+  }
+}
+
+#breadcrumbBar {
+  background-color: transparent;
+  background: url('/userContent/minamike/bg.gif');
+
+  & > div:not(.top-sticker) {
+    background-color: transparent;
+  }
+
+  .top-sticker-inner {
+    background-color: transparent;
+
+    #breadcrumbs {
+      border: 0;
+      background-color: transparent;
+    }
+  }
+
+  li:hover, a.breadcrumbBarAnchor.mouseIsOverMenuSelector {
+    background: transparent !important;
+  }
+}

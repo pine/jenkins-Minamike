@@ -1,0 +1,20 @@
+footer {
+  padding-top: 20px;
+  background: #ffc37d url('/userContent/minamike/bg_footer.png') top left repeat-x;
+
+  .container-fluid {
+    .row {
+      .col-md-6 {
+        display: none !important;
+      }
+
+      .col-md-18 {
+        float: none;
+        margin: 0 auto;
+        padding: 0 0 10px;
+        width: 1024px;
+        text-align: left;
+      }
+    }
+  }
+}

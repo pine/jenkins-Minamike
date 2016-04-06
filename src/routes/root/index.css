@@ -1,0 +1,66 @@
+.mk-index {
+  position: relative;
+  top: -20px;
+  width: 1024px;
+  height: 985px;
+  background: url('/userContent/minamike/top/main.png');
+
+  .logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .menu {
+    position: absolute;
+    top: 284px;
+    left: 782px;
+  }
+
+  #tasks {
+    .task {
+      position: absolute;
+
+      .task-icon-link {
+        display: none;
+      }
+
+      a.task-link {
+        font-size: 18px;
+        letter-spacing: 4px;
+        color: #242001 !important;
+        text-decoration: none;
+      }
+
+      &:nth-of-type(1) {
+        top: 332px;
+        left: 794px;
+        transform: rotate(-12deg);
+      }
+
+      &:nth-of-type(2) {
+        top: 376px;
+        left: 802px;
+        transform: rotate(-8deg);
+      }
+
+      &:nth-of-type(3) {
+        top: 410px;
+        left: 805px;
+        transform: rotate(-4deg);
+      }
+
+      &:nth-of-type(4) {
+        top: 445px;
+        left: 810px;
+        transform: rotate(-0deg);
+      }
+
+      &:nth-of-type(5) {
+        top: 483px;
+        left: 806px;
+        transform: rotate(4deg);
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "path": "./public/",
+  "base": [
+    "http://king-cr.jp/special/minami-ke/4/images/",
+    "http://king-cr.jp/img/"
+  ],
+  "urls": [
+    "http://king-cr.jp/img/header/btn_search.png",
+    "http://king-cr.jp/special/minami-ke/4/images/bg.gif",
+    "http://king-cr.jp/special/minami-ke/4/images/bg_contents.png",
+    "http://king-cr.jp/special/minami-ke/4/images/bg_footer.png",
+    "http://king-cr.jp/special/minami-ke/4/images/bg_pagetop.png",
+    "http://king-cr.jp/special/minami-ke/4/images/contents_bg.png",
+    "http://king-cr.jp/special/minami-ke/4/images/contents_foot.png",
+    "http://king-cr.jp/special/minami-ke/4/images/contents_head.png",
+    "http://king-cr.jp/special/minami-ke/4/images/pagetop_on.png",
+    "http://king-cr.jp/special/minami-ke/4/images/pagetop_off.png",
+    "http://king-cr.jp/special/minami-ke/4/images/menu/bg.png",
+    "http://king-cr.jp/special/minami-ke/4/images/menu/logo.png",
+    "http://king-cr.jp/special/minami-ke/4/images/menu/menu.png",
+    "http://king-cr.jp/special/minami-ke/4/images/minami-ke/title.png",
+    "http://king-cr.jp/special/minami-ke/4/images/onair/tv.png",
+    "http://king-cr.jp/special/minami-ke/4/images/top/logo.png",
+    "http://king-cr.jp/special/minami-ke/4/images/top/main.png",
+    "http://king-cr.jp/special/minami-ke/4/images/top/menu.png"
+  ]
+}

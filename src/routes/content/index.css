@@ -1,0 +1,159 @@
+@define-mixin heading {
+  clear: fix;
+  height: 87px;
+  margin: 0 -20px 0 -15px;
+  padding: 10px;
+  color: white;
+  background: url('/userContent/minamike/contents_head.png') no-repeat;
+  letter-spacing: 3px;
+  line-height:  36px;
+  font-weight: normal;
+  font-size: 24px;
+
+  &:before {
+    float: left;
+    width: 40px;
+    height: 36px;
+    margin-right: 10px;
+    content: '';
+    background: url('/userContent/minamike/minami-ke/title.png') no-repeat;
+  }
+}
+
+#page-body {
+  position: relative;
+  background: url('/userContent/minamike/bg_contents.png') left top repeat-y;
+}
+
+#main-panel {
+  position: relative;
+  margin: -26px 360px 0 0;
+  width: 757px;
+  min-height: 900px;
+  padding: 46px 50px 120px 80px;
+
+  & > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  &:before {
+    position: absolute;
+    top: 63px;
+    right: 0;
+    bottom: 100px;
+    left: 0;
+    content: '';
+    background: url('/userContent/minamike/contents_bg.png') 65px top repeat-y;
+    z-index: 0;
+  }
+
+  #bottom-sticker {
+    .bottom-sticker-edge {
+      background: transparent;
+    }
+
+    .bottom-sticker-inner {
+      background-color: transparent;
+    }
+  }
+
+  & > h1:first-of-type {
+    @mixin heading;
+    img {
+      display: none;
+    }
+  }
+
+  & > h1:nth-of-type(n+2), .mk-queue h1 {
+    color: #ff8756;
+    font-weight: normal;
+    font-size: 22px;
+
+    &:before {
+      display: block;
+      float: left;
+      margin-right: 7px;
+      width: 27px;
+      height: 27px;
+      content: '';
+      background: url('/userContent/minamike/onair/tv.png') left center no-repeat;
+    }
+  }
+
+  .mk-queue {
+    & > div {
+      &:before, &:after {
+        display: inline !important;
+      }
+
+      .row {
+        &:before, &:after {
+          display: inline !important;
+        }
+      }
+    }
+  }
+
+  .mk-footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    height: calc(33px + 75px);
+    background: url('/userContent/minamike/contents_foot.png') 65px top no-repeat, /* 33 */
+      url('/userContent/minamike/bg_pagetop.png') right bottom no-repeat; /* 75 */
+
+    .mk-pagetop {
+      position: absolute;
+      right: 28px;
+      bottom: 10px;
+      display: block;
+      width: 138px;
+      height: 27px;
+      background: url('/userContent/minamike/pagetop_off.png') no-repeat;
+
+      &:hover {
+        background: url('/userContent/minamike/pagetop_on.png') no-repeat;
+      }
+    }
+  }
+}
+
+#side-panel {
+  position: relative;
+  float: right;
+  margin-top: 26px;
+  min-height: 850px;
+  width: 267px;
+  background: url('/userContent/minamike/menu/logo.png') center top no-repeat,
+    url('/userContent/minamike/menu/menu.png') center 200px no-repeat,
+    url('/userContent/minamike/menu/bg.png') center top no-repeat;
+
+  #tasks {
+    margin-top: 240px;
+
+    .task {
+      line-height: 2;
+      text-align: center;
+
+      .task-icon-link {
+        display: none;
+      }
+    }
+  }
+
+  #buildQueue, #executors {
+    display: none;
+  }
+
+  .mk-logo-clickarea {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    display: block;
+    width: 236px;
+    height: 190px;
+  }
+}
+

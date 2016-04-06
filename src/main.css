@@ -1,0 +1,8 @@
+body {
+  background: url('/userContent/minamike/bg.gif');
+}
+
+#page-body {
+  margin: 0 auto 15px;
+  width: 1024px;
+}
