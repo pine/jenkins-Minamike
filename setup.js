@@ -28,7 +28,7 @@ async.eachLimit(remoteUrls, 5, (remoteUrl, cb) => {
       return // skip because a target file already existed
     } catch (e) { }
 
-    console.log(`Downloading: $remoteUrl`)
+    console.log(`Downloading: ${remoteUrl}`)
 
     const directory = path.dirname(localFullPath)
     const filename = path.basename(localFullPath)
