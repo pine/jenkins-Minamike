@@ -1,6 +1,4 @@
-jenkins-Minamike
-[![Build Status](http://img.shields.io/travis/pine613/jenkins-Minamike/master.svg?style=flat-square)](https://travis-ci.org/pine613/jenkins-Minamike)
-----------------
+# jenkins-Minamike [![Build Status](http://img.shields.io/travis/pine613/jenkins-Minamike/master.svg?style=flat-square)](https://travis-ci.org/pine613/jenkins-Minamike)
 
 **EXPERIMENTAL**
 
