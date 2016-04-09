@@ -15,6 +15,10 @@ const remoteUrls = resource.urls
 const access = thunkify(fs.access)
 const download = thunkify(require('download-file'))
 
+if (process.env.CI === 'true') {
+  process.exit(0)
+}
+
 async.eachLimit(remoteUrls, 5, (remoteUrl, cb) => {
   let localPath = remoteUrl
   baseUrls.forEach(baseUrl => {
