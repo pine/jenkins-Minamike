@@ -52,7 +52,7 @@
 
       &:nth-of-type(4) {
         top: 445px;
-        left: 810px;
+        left: 806px;
         transform: rotate(-0deg);
       }
 
@@ -60,6 +60,18 @@
         top: 483px;
         left: 806px;
         transform: rotate(4deg);
+      }
+
+      &:nth-of-type(6) {
+        top: 528px;
+        left: 802px;
+        transform: rotate(7deg);
+      }
+
+      &:nth-of-type(7) {
+        top: 567px;
+        left: 796px;
+        transform: rotate(11deg);
       }
     }
   }
