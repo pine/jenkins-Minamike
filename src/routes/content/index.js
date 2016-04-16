@@ -24,12 +24,11 @@ function setupHeading() {
 }
 
 function setupQueue() {
-  const buildQueue = $('#buildQueue').detach()
-  const executors = $('#executors').detach()
+  const elements = $('#buildQueue, #executors, #buildHistoryPage').detach()
 
-  if (buildQueue[0] && executors[0]) {
+  if (elements.length > 0) {
     $('#main-panel').append(require('./queue.jade'))
-    $('.mk-queue').append(buildQueue).append(executors.removeAttr('id'))
+    $('.mk-queue').append(elements)
   }
 }
 
