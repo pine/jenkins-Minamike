@@ -7,7 +7,7 @@ Minamike like Jenkins theme.
 
 ## Develop environment
 
-- Node v4 ~
+- Node v5.10.1
 - [Webpack](https://webpack.github.io/)
 - [Babel](https://babeljs.io/) 6.x
 - [Postcss](http://postcss.org/)
