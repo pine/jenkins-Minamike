@@ -21,7 +21,7 @@ $ git clone git@github.com:pine613/jenkins-Minamike.git ~/project/jenkins-Minami
 
 ### 2. Build
 ```
-$ cd ~/jenkins-Minamike
+$ cd ~/project/jenkins-Minamike
 $ npm install
 $ npm run build
 ```
