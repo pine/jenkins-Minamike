@@ -13,23 +13,26 @@ Minamike like Jenkins theme.
 - [Postcss](http://postcss.org/)
 
 ## Getting started
-1. Clone git repository
+### 1. Clone git repository
 ```
 $ mkdir -p ~/project/jenkins-Minamike
 $ git clone git@github.com:pine613/jenkins-Minamike.git ~/project/jenkins-Minamike
 ```
-2. Build
+
+### 2. Build
 ```
 $ cd ~/jenkins-Minamike
 $ npm install
 $ npm run build
 ```
-3. Create symbolic link
+
+### 3. Create symbolic link
 ```
 $ ln -s ~/project/jenkins-Minamike/public ~/.jenkins/userContent/minamike
 ```
-4. Install [Simple Theme Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Simple+Theme+Plugin)
-5. Set `/userContent/minamike/bundle.js` in URL of theme JS
+
+### 4. Install [Simple Theme Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Simple+Theme+Plugin)
+### 5. Set `/userContent/minamike/bundle.js` in URL of theme JS
 
 ## Lint
 
