@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "xo * src/**",
-    "build": "node setup && webpack",
+    "build": "node setup && webpack --progress -p",
     "watch": "node setup && webpack --progress --watch"
   },
   "author": "Pine Mizune <pinemz@gmail.com> (https://github.com/pine613)",
