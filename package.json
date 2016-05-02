@@ -8,7 +8,7 @@
     "build": "node setup && webpack --progress -p",
     "watch": "node setup && webpack --progress --watch"
   },
-  "author": "Pine Mizune <pinemz@gmail.com> (https://github.com/pine613)",
+  "author": "Pine Mizune <pinemz@gmail.com> (https://github.com/pine)",
   "license": "MIT",
   "devDependencies": {
     "async": "^2.0.0-rc.3",
