@@ -11,6 +11,7 @@ Minamike like Jenkins theme.
 - [Webpack](https://webpack.github.io/)
 - [Babel](https://babeljs.io/) 6.x
 - [Postcss](http://postcss.org/)
+- Jenkins v1.655
 
 ## Getting started
 ### 1. Clone git repository
