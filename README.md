@@ -1,4 +1,10 @@
-# jenkins-Minamike [![Build Status](http://img.shields.io/travis/pine/jenkins-Minamike/master.svg?style=flat-square)](https://travis-ci.org/pine/jenkins-Minamike) [![Dependency Status](https://img.shields.io/david/pine/jenkins-Minamike.svg?style=flat-square)](https://david-dm.org/pine/jenkins-Minamike) [![devDependency Status](https://img.shields.io/david/dev/pine/jenkins-Minamike.svg?style=flat-square)](https://david-dm.org/pine/jenkins-Minamike#info=devDependencies)
+# DEPRECATED
+
+:warning: This repository is no longer maintained.
+
+-----
+
+# jenkins-Minamike
 
 **EXPERIMENTAL**
 
